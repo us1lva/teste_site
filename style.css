@@ -1,0 +1,105 @@
+nav{
+    position: absolute;
+    top: -30px;
+    left: 25px;
+    width: 97.3%;
+    height: 100px;
+    border-radius: 30px;
+    border: 30px;
+    flex-shrink: 0;
+    background-color: #AC98E8;
+    box-sizing: border-box;
+}
+#lupa{
+    position: relative;
+    top: 40px;
+    left: 75px;
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+.textos{
+    position: relative;
+    top: -30px;
+    left: 400px;
+    display: flex;
+width: 119px;
+height: 59px;
+flex-direction: row;
+gap: 90px;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+
+text-align: center;
+font-family: "Space Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#logo{
+    position: relative;
+    left: 46%;
+    top: -65px;
+    background-color: white;
+    height: 50px;
+    width: 180px;
+}
+.textos h3 a {
+    text-decoration: none;
+    color: #FFF;
+    transition-duration: 1s;
+transition-property: all;
+}
+.textos h3 a:hover {
+ background-color: #8b76ca;
+ transition: all 1s ease-in-out;
+}
+.textos2 h3 a:hover {
+    background-color: #8b76ca;
+    transition: all 1s linear;
+   }
+.textos2 h3 a {
+    text-decoration: none;
+    color: #FFF;
+    transition-duration: 1s;
+    transition-property: all;
+}
+.textos2{
+    position: relative;
+    top: -140px;
+    left: 1250px;
+    display: flex;
+width: 119px;
+height: 59px;
+flex-direction: row;
+gap: 90px;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+
+text-align: center;
+font-family: "Space Mono";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#user{
+    position: relative;
+    top: -170px;
+    left: 86%;
+width: 40px;
+height: 40px;
+flex-shrink: 0;
+}
+#shop{
+    position: relative;
+    top: -209px;
+    left: 92%;
+    width: 40px;
+height: 40px;
+flex-shrink: 0;
+}
